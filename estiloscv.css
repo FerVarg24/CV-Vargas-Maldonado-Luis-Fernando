@@ -13,7 +13,7 @@ body{
 }
 
 .curriculum{
-    width: 800px;
+    width: 820px;
     background: #fff;
     margin: 25px auto;
     display: flex;
@@ -21,7 +21,7 @@ body{
 
 .izq{
     background: #292b2f;
-    width: 250px;
+    width: 270px;
     padding: 0 20px;
 }
 
@@ -165,9 +165,98 @@ body{
     text-transform: uppercase;
 }
 
-.TituloSkills{
-    padding: 10px;
-    font-size: 30px;
-    color: #348F50;
-    text-transform: uppercase;
+.in_der{
+    padding: 30px;
+    color: #292b2f;
 }
+
+.in_der .edu{
+    margin-top: 30px;
+}
+
+.in_der .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.in_der .li_wrap .fecha{
+    width: 125px;
+    color: #9153c9;
+}
+
+.in_der .li_wrap .info{
+    width: calc(100% -125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.in_der .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9153c9;
+}
+
+.in_der .li_wrap .info_com{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.in_der .li_wrap .info_cont{
+    margin-top: 15px;
+}
+
+.in_der .li_wrap .info::before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 11px;
+    width: 10px;
+    height: 10px;
+    background: #9153c9;
+    border-radius: 50%;
+}
+
+.in_der .li_wrap .info::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 2px;
+    height: 90%;
+    background: #9153c9;
+
+}
+
+.progress-bar {
+    width: 30%;
+    height: 10px;
+    appearance: none;
+    border-radius: 10px;
+    background-color: #dceefc;
+  }
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: #dceefc;
+    border-radius: 10px;
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: #55acee;
+    border-radius: 10px;
+  }
+
+  .hab{
+    font-weight: 700;
+    margin-top: 10%;
+  }
+
+ .hab a{
+    text-decoration: none;
+    color: #55acee;
+ }
+
+ .hab a:hover{
+    color: #9153c9;
+ }
