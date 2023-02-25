@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,#348F50,#56B4D3);
+}
+
+.curriculum{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.izq{
+    background: #292b2f;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.der{
+    width: calc(100% - 250px);
+}
+
+.izq .img_holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.izq .img_holder img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #3525af;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.title::before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #3525af;
+}
+
+.left .icon{
+    font-size: 20px;
+    color: #9153c9;
+}
+
+.left .text{
+    color: #9153c9;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.contacto .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contacto .li_wrap .iconito{
+    width: 50px;
+    height: 50px;
+    background: #fff;  
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.contacto .li_wrap .text{
+    width: calc(100% - 5px);
+    word-break:break-word;
+    color: #fff;
+}
+
+.lang ul,
+.pass ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lang .li_wrap,
+.pass .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.lang .li_wrap{
+    background: #fff;
+}
+
+.pass .li_wrap .text,
+.lang .li_wrap .text{
+    margin-top: 5px;
+}
+
+.pass .li_wrap{
+    border: 2px solid #fff;
+}
+
+.header{
+    background: #292b2f;
+    padding: 15px 30px ;
+    color: #fff;
+    height: 240px;
+}
+
+.header .nombre{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3525af;
+}
+
+.header .puesto{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Sobre-mi{
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.smi{
+    padding: 10px;
+    font-size: 30px;
+    color: #348F50;
+    text-transform: uppercase;
+}
+
+.TituloSkills{
+    padding: 10px;
+    font-size: 30px;
+    color: #348F50;
+    text-transform: uppercase;
+}
