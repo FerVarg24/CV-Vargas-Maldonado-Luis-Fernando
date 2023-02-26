@@ -14,47 +14,74 @@
               <div class="imagen"><img src="resources/imgcss.png" alt="Logo" width="80%"></div>
           </div>
           <ul class="nav-links">
-            <li><a class="activo" href="css.html">¿Qué es?</a></li>
-            <li><a href="#pq">¿Por qué se creó?</a></li>
-            <li><a href="#cmo">¿Como se creó?</a></li>
+            <li><a href="#qes">¿Qué es?</a></li>
+            <li><a href="#cmo">Ventajas de CSS</a></li>
+            <li><a href="#pq">¿Por qué se creó?</a></li>          
             <li><a href="#qndo">¿Cuando se creó?</a></li>
-            <li><a href="#paq">¿Para qué?</a></li>
+            <li><a href="#relacion">Relacion de HTML con CSS</a></li>
+            <li><a href="#sint">Sintaxis de CSS</a></li>
+            <li><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Aprende mas de CSS</a></li>
           </ul>
           <div class="animacion_home"></div>
     </nav>
     <div class="cuadro-texto">
         <div class="cuadrito">
-            <div class="titulo">
+            <a name="qes"></a><div class="titulo"></a>
               ¿Qué es CSS?
             </div>
-            <a name="pq"><div class="texto"></a>
-              <img class="img_izq" src="resources/qeshtml.jpg" width="300px">
-              <aside>ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br><br><br>
+            <div class="texto">
+              <img class="img_izq" src="resources/cssimg1.jpg" width="500px">CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para describir el aspecto y el formato de un documento HTML, XML u otro tipo de documento estructurado. Se utiliza para definir la presentación visual de un sitio web, incluyendo aspectos como el color, la fuente, el tamaño, el diseño y la disposición de los elementos.<br><br>
+              <aside><br><br><br><br><br>
               </aside> 
             </div>
-            <div class="titulo">
+            <a name="cmo"><div class="titulo"></a>
+                Ventajas de CSS
+              </div>
+              <div class="texto">
+                <ul>
+                  <li>Presentación del contenido:CSS facilita la difusión de contenido en distintos formatos basado en parmaetros nominales.<br>
+                  Es decir, preferencias del usuario,del navegador,la localización geográfica y el tipo de dispositivo desde el cual se accede al contenido.<br><br></li>
+                  <li>Lenguaje Sencillo:Es un lenguaje con un tiempo de aprendizaje relativamente corto para realizar buenos trabajos.<br><br></li>
+                  <li>Archivos Pequeños.<br><br></li>
+                  <li>Flexibilidad:Podemos cambiar en cualquier momento alguna parte o la totalidad del diseño de nuestras páginas con sólo modificar nuestra hoja de estilo, sin que ello suponga modificar el contenido.<br><br></li>
+                  <li>Unificación de Diseño:Mantener una misma apariencia en un sitio web es tedioso por lo que enlazar a cada una de nuestras páginas nuestras hojas de estilo,agiliza el proceso.<br><br></li>
+                </ul><br><br><br><br><br>
+              </div>
+            <a name="pq"><div class="titulo"></a>
               ¿Por que se creó CSS?
             </div>
-            <a name="pq"></a><div class="texto"></a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br><br><br>
+            <div class="texto">
+                CSS fue creado para resolver un problema fundamental en la creación de sitios web: separar el contenido del diseño y la presentación visual. En los primeros días de la web, los sitios web se diseñaban utilizando tablas HTML y atributos de presentación como el tamaño de la fuente y el color de fondo se incluían directamente en el código HTML. Esto hacía que el código HTML fuera más complicado y difícil de mantener.<br><br>
+
+                Además, cualquier cambio en el diseño de un sitio web requería modificar manualmente cada página individual, lo que hacía que la actualización de los sitios web fuera un proceso lento y tedioso. CSS fue diseñado para abordar estos problemas al permitir que el diseño y la presentación visual de un sitio web se definieran en un archivo separado de la estructura del documento HTML.<br><br><br><br><br>
             </div>
-            <a name="pq"><div class="titulo">
-              ¿Como se creó CSS?
-            </div>
-            <a name="cmo"></a><div class="texto"></a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br><br><br>
-            </div>
-            <div class="titulo">
+            <a name="qndo"><div class="titulo"></a>
               ¿Cuando se creo CSS?
             </div>
-            <a name="qndo"></a><div class="texto"></a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br><br><br>
+            <div class="texto">
+              En 1994 se comenzó el desarrollo de CSS por parte de el World Wide Web Consortium debido a que a Tim Berners-Lee le parecía necesario separar la presentación visual de la estructura con la estructura fundamental del documento HTML<br><br>
+              Dos años después se publicó el primer borrador de la especificación CSS.Posteriormente, en 1988 se pubnlicó la primera version oficial bajo el nombre de CSS1<br><br>
+              En años posteriores se lanzaron las versiones CSS2 y CSS3 que incluían nuevas características haciendolas capaces de realizar diseños más complejos<br><br>
+              En la acutalidad,CSS sigue siendo desarrollado por el World Wide Web Consortium y se actualiza constantemente para adaptarse al avance de las tecnologíass<br><br><br><br><br>
             </div>
-            <div class="titulo">
-              ¿Para qué se creo CSS?
+            <a name="relacion"><div class="titulo"></a>
+              Relacion de CSS con HTML
             </div>
-            <a name="paq"></a><div class="texto"></a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br><br><br>
+            <div class="texto">
+                <img class="img_der" src="resources/cssimg2.jpg" width="500px">
+                CSS funciona separadamente del HTML, lo que permite a los desarrolladores de sitios web separar el contenido del diseño y el formato. Esto hace que el desarrollo de sitios web sea más eficiente, ya que los cambios de diseño pueden realizarse fácilmente a través de una hoja de estilo CSS centralizada, en lugar de tener que modificar cada página individualmente.<br><br>
+
+                CSS se aplica a través de reglas que se definen en una hoja de estilo, que se puede enlazar con un documento HTML utilizando una etiqueta &ltlink&gt en el encabezado del documento o directamente en el atributo "style" de un elemento HTML específico. Las reglas CSS pueden aplicarse a elementos individuales, como un encabezado o un párrafo, o a grupos de elementos que comparten un atributo común, como todos los enlaces o todos los párrafos en una página.<br><br><br><br><br>
+            </div>
+            <a name="sint"><div class="titulo"></a>
+              Sintaxis De CSS
+            </div>
+            <div class="texto">
+              <aside><img class="img_der" src="resources/cssimg3.jpg" width="200px" >
+                El CSS es un lenguaje basado en reglas: cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web.<br><br>
+                El siguiente codigo es un ejemplo de esto donde el usuario dicta ciertas reglas para darle un color rojo a un encabezado y definir el tamaño de letra.<br>
+              </aside>
+                <br><br><br><br><br>
             </div>
         </div>
     </div>

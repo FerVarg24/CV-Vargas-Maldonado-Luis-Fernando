@@ -7,7 +7,7 @@
  }
  body{
     font-family: sans-serif;
-    background-image: url("resources/imgfondo2.jpg");
+    background-image: url("resources/imgfondo4.jpg");
     background-size:cover
  }
 
@@ -18,7 +18,7 @@
 }
 
 nav{
-    background: #0082e6;
+    background: #beb9b4;
     height: 80px;
     width: 100%;   
 }
@@ -51,14 +51,14 @@ nav ul li a{
 }
 
 a.active,a:hover{
-    background: #1b9bff;
+    background: #de4e37;
     transition: .5s;
 }
 
 .cuadro-texto{
    margin-top: 5%;
    width: 100%;
-   height: 1700px;
+   height: 4160px;
    position: relative;
    margin-bottom: 5%;
 }
@@ -67,7 +67,7 @@ a.active,a:hover{
    position: absolute;
    width: 80%;
    height: 100%;
-   background-color: #696969b9;
+   background-color: #585858d2;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -96,3 +96,13 @@ margin-top: 15px;
    float: left;
   margin-right: 15px;
 }
+
+.img_der{
+    float: right;
+   margin-right: 15px;
+ }
+
+ .texto li{
+    margin-left: 2%;
+    list-style: circle;
+ }

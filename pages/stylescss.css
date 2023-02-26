@@ -58,7 +58,7 @@ a.active,a:hover{
 .cuadro-texto{
    margin-top: 5%;
    width: 100%;
-   height: 1700px;
+   height: 2820px;
    position: relative;
    margin-bottom: 5%;
 }
@@ -96,3 +96,13 @@ margin-top: 15px;
    float: left;
   margin-right: 15px;
 }
+
+.img_der{
+    float: right;
+    margin-right: 15px;
+}
+
+.texto li{
+    margin-left: 2%;
+    list-style: circle;
+ }
