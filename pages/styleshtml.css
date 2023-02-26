@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/*body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #2c3e50;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .logo a {
+    display: block;
+  }
+
+  nav .animacion{
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    z-index: 0;
+    background: blue;
+    border-radius: 8px;
+  }
+
+ nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+ }
+
+ a:nth-child(1){
+    width: 100px;
+    
+ }
+
+ nav .home,a:nth-child(1):hover~.animacion{
+    width: 100px;
+    left: 0;
+ } 
+ 
+ 
+ a:nth-child(2){
+    width: 110px;
+ }
+
+ nav .home,a:nth-child(2):hover~.animacion{
+    width: 110px;
+    left: 100px;
+ } 
+ 
+
+ a:nth-child(3){
+    width: 100px;
+ }
+
+ nav .home,a:nth-child(3):hover~.animacion{
+    width: 100px;
+    left: 210px;
+ } 
+
+
+ a:nth-child(4){
+    width: 160px;
+ }
+
+ nav .home,a:nth-child(4):hover~.animacion{
+    width: 160px;
+    left: 310px;
+ } 
+
+ a:nth-child(5){
+    width: 120px;
+ }
+
+ nav .home,a:nth-child(5):hover~.animacion{
+    width: 120px;
+    left: 470px;
+ } */
+
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: sans-serif;
+    background-image: url("resources/imgfondo1.jpg");
+    background-size:cover
+ }
+
+.imagen{
+    float: left;
+    width: 10%;
+    margin-left: 2%;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;   
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px ;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.cuadro-texto{
+   margin-top: 5%;
+   width: 100%;
+   height: 1700px;
+   position: relative;
+   margin-bottom: 5%;
+}
+
+.cuadrito{
+   position: absolute;
+   width: 80%;
+   height: 100%;
+   background-color: #9c9c9c7a;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.titulo{
+font-size: 42px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding-bottom: 10px;
+color: #ffffff;
+position: relative;
+text-align: center;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+.texto{
+   padding: 10px;
+   font-size: 24px;
+   color: #ffffff;
+}
+
+.img_izq{
+   float: left;
+  margin-right: 15px;
+}
