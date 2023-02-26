@@ -20,7 +20,7 @@ body{
 }
 
 .izq{
-    background: #292b2f;
+    background: #596869;
     width: 270px;
     padding: 0 20px;
 }
@@ -49,7 +49,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-bottom: 10px;
-    color: #3525af;
+    color: #489FB5;
     position: relative;
     text-align: right;
     margin-bottom: 15px;
@@ -62,7 +62,7 @@ body{
     right: 0;
     width: 50px;
     height: 3px;
-    background: #3525af;
+    background: #489FB5;
 }
 
 .left .icon{
@@ -134,7 +134,7 @@ body{
 }
 
 .header{
-    background: #292b2f;
+    background: #9DC3C2;
     padding: 15px 30px ;
     color: #fff;
     height: 240px;
@@ -144,12 +144,13 @@ body{
     font-size: 52px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #3525af;
+    color: #25283D;
 }
 
 .header .puesto{
     font-weight: 300;
     font-size: 20px;
+    color: #CDE5D7;
 }
 
 .Sobre-mi{
@@ -181,7 +182,7 @@ body{
 
 .in_der .li_wrap .fecha{
     width: 125px;
-    color: #9153c9;
+    color: #8EA604;
 }
 
 .in_der .li_wrap .info{
@@ -194,7 +195,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #9153c9;
+    color: #8EA604;
 }
 
 .in_der .li_wrap .info_com{
@@ -214,7 +215,7 @@ body{
     left: 11px;
     width: 10px;
     height: 10px;
-    background: #9153c9;
+    background: #489FB5;
     border-radius: 50%;
 }
 
@@ -224,8 +225,8 @@ body{
     top: 10px;
     left: 15px;
     width: 2px;
-    height: 90%;
-    background: #9153c9;
+    height: 95%;
+    background: #489FB5;
 
 }
 
@@ -238,12 +239,12 @@ body{
   }
   
   .progress-bar::-webkit-progress-bar {
-    background-color: #dceefc;
+    background-color: #deec99;
     border-radius: 10px;
   }
   
   .progress-bar::-webkit-progress-value {
-    background-color: #55acee;
+    background-color: #8EA604;
     border-radius: 10px;
   }
 
